@@ -1,7 +1,7 @@
 {
   "name": "js-hw-09-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Redeploy",
   "homepage": "https://github.com/tosianosia/js-hw-09-v2",
   "scripts": {
     "start": "parcel src/*.html",
