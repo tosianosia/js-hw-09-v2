@@ -1,0 +1,30 @@
+body {
+  padding: 1rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+}
+
+.form > label {
+  margin-right: 7px;
+}
+
+.form input {
+  display: block;
+  width: 170px;
+}
+
+button[type='submit'] {
+  align-self: end;
+}
+
+.form input,
+button[type='submit'] {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}

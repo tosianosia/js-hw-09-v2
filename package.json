@@ -1,0 +1,30 @@
+{
+  "name": "js-hw-09-v2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/tosianosia/js-hw-09-v2",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /js-hw-09-v2/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tosianosia/js-hw-09-v2.git"
+  },
+  "keywords": [],
+  "author": "Anatoliy Nosenko <nosia80@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tosianosia/js-hw-09-v2/issues"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.13",
+    "modern-normalize": "^2.0.0",
+    "notiflix": "^3.2.6"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}

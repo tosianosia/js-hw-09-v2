@@ -1,0 +1,39 @@
+body {
+  padding: 1rem;
+}
+
+input#datetime-picker {
+  font-size: 1.5rem;
+  padding: 0.2em;
+}
+
+button[data-start] {
+  font-size: 1.5rem;
+  padding: 0.2em 0.4em;
+}
+
+.timer {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.timer > .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer > .field:not(:last-child) {
+  margin-right: 1.2rem;
+}
+
+.timer .value {
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  font-size: 3rem;
+}
+
+.timer .label {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
